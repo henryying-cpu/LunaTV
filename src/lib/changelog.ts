@@ -11,6 +11,33 @@ export interface ChangelogEntry {
 
 export const changelog: ChangelogEntry[] = [
   {
+    version: "100.1.3",
+    date: "2026-05-28",
+    added: [
+      // 无新增内容
+    ],
+    changed: [
+      // 无变更内容
+    ],
+    fixed: [
+    "修复首页热门电影、热门剧集、热门综艺在番剧接口失败时一并空白的问题",
+    "番剧日历改为通过服务端代理请求，规避 bgm.tv 的 CORS 限制"
+    ]
+  },
+  {
+    version: "100.1.2",
+    date: "2026-03-15",
+    added: [
+      // 无新增内容
+    ],
+    changed: [
+    "移除豆瓣图片代理中的「直连」和「豆瓣官方精品 CDN」选项，历史数据自动兼容为服务器代理"
+    ],
+    fixed: [
+      // 无修复内容
+    ]
+  },
+  {
     version: "100.1.1",
     date: "2026-02-27",
     added: [
